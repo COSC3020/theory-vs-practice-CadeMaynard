@@ -14,3 +14,14 @@
   complexity suggests a different time.
 
 Add your answers to this markdown file.
+
+## My Answers
+- Three reasons why asymptotic analysis may be misleading
+  - We ignore constants, which in practice can make much more difference than we give them credit for
+  - $n_0$, smaller inputs can give the appearance of being more efficient than other algorithms but once you get to larger inputs it becomes clear the other algorithm might be more efficient.
+  - Excluding when $\Theta$ is used, bounds can be very loose and imprecise
+- I would guess that it would take around 7 seconds for the algorithm to run considering $nLog(n)$ is a very gradually increasing function but our input is 10 times larger than the first so it should be a little bigger.
+- There could be any number of reasons that that an algorithm would run slower than anticipated:
+  - Perhaps the computer it was run on has other things running in the background, slowing it down.
+  - It may be the worst-case scenario of the item not even being in the tree.
+  - Hardware is not taken into account with asymptotic complexity so maybe the first time it was run was on a modern computer and the second time it was run with the larger input size it was run on a 8-digit basic calculator from the 90s.
