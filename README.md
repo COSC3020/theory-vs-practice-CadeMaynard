@@ -23,5 +23,5 @@ Add your answers to this markdown file.
 - I believe the program would take 6.667 seconds. I computed this by taking the log of 1,000 which is 3 and the log of 10,000 which is 4, so log 10,000 is roughly $\frac{4}{3}$ of log 1000. So I just multiplied 5 by $\frac{4}{3}$
 - There could be any number of reasons that an algorithm would run slower than anticipated:
   - Perhaps the computer it was run on has other things running in the background, slowing it down.
-  - Perhaps you're presently being DDos attacked.
+  - Perhaps an error occurred in the IDE and the program didn't run properly behind the scenes.
   - Hardware is not taken into account with asymptotic complexity so maybe the first time it was run was on a modern computer and the second time it was run with the larger input size it was run on a 8-digit basic calculator from the 90s.
